@@ -1,7 +1,8 @@
 //Exercise #5: Shopping and Discount
 
 // Start coding here
-const fullPrice = 27000
-const discount25 = (fullPrice*25)/100;
-const priceAfterDiscount = fullPrice-discount25;
-console.log(priceAfterDiscount);
+let totalPrice = 27000
+let productDiscount = (totalPrice*25)/100;
+let discountPrice = productDiscount
+console.log(discountPrice);
+
